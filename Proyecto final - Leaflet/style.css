@@ -12,6 +12,9 @@ header{
   div.header {
     font-size: 0.5em;;
   }
+  h1{
+    font-size: 30px;
+  }
 }
 h1{
   font-size: 60px;
