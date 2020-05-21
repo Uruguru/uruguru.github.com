@@ -3,10 +3,34 @@
   box-sizing: border-box;
 }
 header{
-  border: 1px solid red;
-  padding: 15px;
+  /*border: 1px solid red;*/
+  padding: 4px;
+  padding-top: 1em;
   text-align: center;
 }
 h1{
   font-size: 60px;
+  line-height: 0;
+}
+.nombresEst{
+  letter-spacing: 0.2em;
+  line-height: 0;
+  padding-bottom: 2em;
+}
+.nombreProf{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  line-height: 0;
+}
+.introduc{
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+.img-introduc{
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
 }
