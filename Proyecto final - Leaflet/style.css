@@ -10,7 +10,7 @@ header{
 }
 @media only screen and (max-width: 600px) {
   div.header {
-    font-size: 10px;
+    font-size: 0.5em;;
   }
 }
 h1{
