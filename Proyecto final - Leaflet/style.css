@@ -21,12 +21,12 @@ h1{
   line-height: 0;
 }
 .nombresEst{
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   line-height: 0;
   padding-bottom: 2em;
 }
 .nombreProf{
   font-size: 20px;
   line-height: 0;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
