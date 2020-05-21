@@ -21,24 +21,12 @@ h1{
   line-height: 0;
 }
 .nombresEst{
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   line-height: 0;
   padding-bottom: 2em;
 }
 .nombreProf{
   font-size: 20px;
-  letter-spacing: 0.2em;
   line-height: 0;
-}
-.introduc{
-  width: 25%;
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-.img-introduc{
-  width: 75%;
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
+  letter-spacing: 1px;
 }
