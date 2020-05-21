@@ -20,6 +20,9 @@ h2{
 p{
   font-size: 25px;
 }
+.symbols{
+  font-size: 80px;
+}
 .nombresEst{
   letter-spacing: 1px;
   padding: 0px 0px 20px 0px;
