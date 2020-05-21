@@ -4,9 +4,11 @@
 }
 header{
   /*border: 1px solid red;*/
-  padding: 4px;
-  padding-top: 1em;
-  text-align: center;
+
+
+    width: 80%;
+    top: 40px;
+    padding: 18px 20px 18px 20px;
 }
 @media only screen and (max-width: 300px) {
   div.header {
