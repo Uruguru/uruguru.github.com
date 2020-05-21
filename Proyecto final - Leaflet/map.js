@@ -30,10 +30,14 @@ let marker2 = L.marker([3.374467,-76.533112], {icon: iconMarker}).addTo(myMap) /
   function perdidas(distancia, frecuencia){
     return ((4*Math.PI*frecuencia*distancia)/300000000)*((4*Math.PI*frecuencia*distancia)/300000000);
   }
+  function perdidasdB(distancia, frecuencia){
+    return 10*(Math.log(perdidas(distancia, frecuencia))/Math.log(10));
+  }
   var frecuencia = prompt("Ingrese un valor para frecuencia");
-  alert("Latitud: " + latiLugar  + "\n" +
+  alert("Frecuencia: "+frecuencia+" Hz.\nLatitud: " + latiLugar  + "\n" +
         "Longitud: " + longLugar + ".\n" + "Distancia entre antenas: (" + distanciam + " m) ó (" + distanciakm + " Km).\n"
-        + "Las pérdidas serán: " + perdidas(distanciam,frecuencia) + " Watts."
+        + "Las pérdidas serán: " + perdidas(distanciam,frecuencia) + " veces.\n"
+        + "Las pérdidas en dB serán: " + perdidasdB(distanciam,frecuencia)+ " dB."
       );
 
 
