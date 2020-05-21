@@ -17,13 +17,15 @@ h2{
   padding: 0;
   margin-top: 3px;;
 }
-p{
-  font-size: 25px;
-}
+
 .symbols{
-  font-size: 80px;
+  font-size: 60px;
+  padding: 0;
+  margin: auto;
+  align-items: center;
 }
 .nombresEst{
+  font-size: 15px;
   letter-spacing: 1px;
   padding: 0px 0px 20px 0px;
   margin: 0;
